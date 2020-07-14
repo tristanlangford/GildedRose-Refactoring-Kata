@@ -6,6 +6,7 @@ describe UpdateBackstagePass do
     let(:ticket_7) { Item.new("ticket", 7, 5) }
     let(:ticket_4) { Item.new("ticket", 3, 5) }
     let(:ticket_50) { Item.new("ticket", 3, 48) }
+    let(:ticket_0) { Item.new("ticket", -1, 5) }
 
     it "increase quality by 1 if sell_in is > 10" do
         shop = UpdateBackstagePass.new(ticket)
@@ -29,6 +30,12 @@ describe UpdateBackstagePass do
         shop = UpdateBackstagePass.new(ticket_50)
         shop.update()
         expect(ticket_50.quality).to eq(50)
+    end
+
+    it 'should set quality to 0 after concert' do 
+        shop = UpdateBackstagePass.new(ticket_0)
+        shop.update()
+        expect(ticket_0.quality).to eq(0)
     end
 
 end

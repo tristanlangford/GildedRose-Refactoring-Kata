@@ -2,11 +2,9 @@ require_relative './update_aged_brie'
 require_relative './update_backstage_pass'
 require_relative './update_normal_item'
 require_relative './update_sulfuras'
+require_relative './update_conjured'
 
 class GildedRose
-
-  QUALITY_MAX = 50
-  QUALITY_MIN = 0
 
   attr_reader :items
 
@@ -28,6 +26,8 @@ class GildedRose
         UpdateBackstagePass.new(item)
       elsif item.name.include?('Sulfuras')
         UpdateSulfuras.new(item)
+      elsif item.name.include?('Conjured')
+        UpdateConjured.new(item)
       else
         UpdateNormalItem.new(item)
       end
