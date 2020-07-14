@@ -30,6 +30,20 @@ describe GildedRose do
     end
   end
 
+  it "checks if quality is at max" do 
+    item = Item.new("normal", 5, 50)
+    item1 = Item.new("normal", 5, 49)
+    expect(shop.max?(item)).to be true
+    expect(shop.max?(item1)).to be false
+  end
+
+  it "checks if quality is at min" do 
+    item = Item.new("normal", 5, 0)
+    item1 = Item.new("normal", 5, 1)
+    expect(shop.min?(item)).to be true
+    expect(shop.min?(item1)).to be false
+  end
+
   it "update_brie" do 
     shop.increase_quality_1(brie)
     expect(brie.quality).to eq(6)
