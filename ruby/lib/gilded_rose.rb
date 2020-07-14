@@ -5,17 +5,16 @@ require_relative './update_sulfuras'
 require_relative './update_conjured'
 
 class GildedRose
-
   attr_reader :items
 
   def initialize(items)
     @items = put_items_into_classes(items)
   end
 
-  def update_quality()
-    @items.each { |item| 
-        item.update
-      }
+  def update_quality
+    @items.each do |item|
+      item.update
+    end
   end
 
   def put_items_into_classes(items_array)
@@ -33,6 +32,4 @@ class GildedRose
       end
     }
   end
-
 end
-  
