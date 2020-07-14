@@ -15,6 +15,11 @@ class UpdateNormalItem
                 update_quality()
             end
         end
+        reduce_sell_in()
+    end
+
+    def reduce_sell_in()
+        @item.sell_in -= 1
     end
 
     def sell_in_check()

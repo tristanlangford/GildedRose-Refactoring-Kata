@@ -7,11 +7,12 @@ class UpdateAgedBrie
     end
 
     def update() 
-        update_quality() unless @item.quality == 50
+        @item.quality += QUALITY_INCREASE unless @item.quality == 50
+        reduce_sell_in()
     end
 
-    def update_quality()
-        @item.quality += QUALITY_INCREASE
+    def reduce_sell_in()
+        @item.sell_in -= 1
     end
 
 end

@@ -12,6 +12,11 @@ class UpdateBackstagePass
         else
             @item.quality += calc_increase
         end
+        reduce_sell_in()
+    end
+
+    def reduce_sell_in()
+        @item.sell_in -= 1
     end
 
     def calc_increase()
