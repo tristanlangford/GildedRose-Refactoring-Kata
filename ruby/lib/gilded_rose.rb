@@ -3,6 +3,7 @@ require_relative './update_backstage_pass'
 require_relative './update_normal_item'
 require_relative './update_sulfuras'
 require_relative './update_conjured'
+require_relative './item'
 
 class GildedRose
   attr_reader :items
