@@ -7,7 +7,6 @@
           1,
           null,
           1,
-          null,
           2,
           2,
           2,
@@ -22,7 +21,6 @@
           1,
           1,
           1,
-          null,
           null,
           null
         ]
@@ -36,7 +34,6 @@
           1,
           null,
           1,
-          null,
           1,
           null,
           1,
@@ -64,15 +61,12 @@
           null,
           null,
           null,
-          null,
-          null,
           null
         ]
       },
       "/Users/Student/Desktop/Tristan_Makers/week10/GildedRose-Refactoring-Kata/ruby/lib/update_aged_brie.rb": {
         "lines": [
           1,
-          null,
           1,
           null,
           1,
@@ -87,14 +81,12 @@
           1,
           2,
           null,
-          null,
           null
         ]
       },
       "/Users/Student/Desktop/Tristan_Makers/week10/GildedRose-Refactoring-Kata/ruby/lib/update_backstage_pass.rb": {
         "lines": [
           1,
-          null,
           1,
           6,
           null,
@@ -124,14 +116,12 @@
           2,
           null,
           null,
-          null,
           null
         ]
       },
       "/Users/Student/Desktop/Tristan_Makers/week10/GildedRose-Refactoring-Kata/ruby/lib/update_normal_item.rb": {
         "lines": [
           1,
-          null,
           1,
           1,
           null,
@@ -165,28 +155,23 @@
           1,
           1,
           null,
-          null,
           null
         ]
       },
       "/Users/Student/Desktop/Tristan_Makers/week10/GildedRose-Refactoring-Kata/ruby/lib/update_sulfuras.rb": {
         "lines": [
           1,
-          null,
           1,
           2,
           null,
           null,
           1,
-          null,
-          null,
           null
         ]
       },
       "/Users/Student/Desktop/Tristan_Makers/week10/GildedRose-Refactoring-Kata/ruby/lib/update_conjured.rb": {
         "lines": [
           1,
-          null,
           1,
           5,
           null,
@@ -209,7 +194,6 @@
           null,
           4,
           null,
-          null,
           null
         ]
       },
@@ -227,7 +211,6 @@
           1,
           1,
           null,
-          null,
           null
         ]
       },
@@ -236,7 +219,6 @@
           1,
           null,
           1,
-          null,
           5,
           null,
           1,
@@ -254,7 +236,6 @@
           1,
           1,
           null,
-          null,
           null
         ]
       },
@@ -263,7 +244,6 @@
           1,
           null,
           1,
-          null,
           2,
           2,
           null,
@@ -277,7 +257,6 @@
           1,
           1,
           1,
-          null,
           null,
           null
         ]
@@ -287,7 +266,6 @@
           1,
           null,
           1,
-          null,
           2,
           2,
           2,
@@ -322,7 +300,6 @@
           1,
           1,
           1,
-          null,
           null,
           null
         ]
@@ -332,7 +309,6 @@
           1,
           null,
           1,
-          null,
           2,
           2,
           2,
@@ -364,7 +340,6 @@
           1,
           1,
           1,
-          null,
           null,
           null
         ]
@@ -374,7 +349,6 @@
           1,
           null,
           1,
-          null,
           2,
           2,
           2,
@@ -395,7 +369,6 @@
           1,
           1,
           1,
-          null,
           null,
           null
         ]
@@ -405,7 +378,6 @@
           1,
           null,
           1,
-          null,
           2,
           null,
           1,
@@ -413,11 +385,10 @@
           1,
           1,
           null,
-          null,
           null
         ]
       }
     },
-    "timestamp": 1594741246
+    "timestamp": 1594885961
   }
 }
